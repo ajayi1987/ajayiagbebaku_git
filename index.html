@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajayi Agbebaku Jr. Aspiring Developer</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href="js/bootstrap.js" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <script>
+  $(function () {
+    $('[#item1]'). tooltip();
+  });
+  </script>
+  <script>
+  $(function () {
+    $('[data-toggle="tooltip"]'). tooltip();
+  });
+  </script>
+
+  <!-- jQuery is required for Bootstrap to work -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom styles for this template go here -->
+
+  <!-- Just for debugging purposes. Don't actually copy this line! -->
+  <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+
+      <script src="js/scripts.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar">
+      <section class="container" id="home">
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-fnt" role="navigation">
+          <nav class="container-fluid">
+            <nav class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Ajayi Agbebaku Jr.</a>
+            </nav>
+            <nav class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#home">Home</a></li>       
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </nav>
+          </nav>
+        </nav>
+      </section>
+      <div class="header">
+        <h1>Ajayi Agbebaku Jr. Aspiring Developer</h1>
+        <p>Hi, my name is <a href="#" title=" More Information" id="item1">Ajayi Agbebaku</a>.I'm an in the process of becoming a Full Stack Developer. I'm originally from El Paso, Texas and now reside in Dallas. Go Cowboys!I love working out, traveling, discovering new things, graphic design and sports! Please follow me on this journey in becoming and awesome Full Stack Developer!</p>
+      </div>
+      <div class="row1">
+        <div class="col-md-4">
+          <h2>Portfolio Concept</h2>
+          <p>I have created logos in the past. This is my first time to really try and code from scratch </p>
+          <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="More Information">View details</button></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Project Goals</h2>
+          <p>I would like to be able to create several websites. For example, I would like to create portfolio websites and ecommerce websites. I would like to understand Ruby on Rails and how javascript frameworks work </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Course Goals</h2>
+          <p>I want to be able to get hired as a Full Stack Web Developer. Right now I work in IT as a support engineer. I want to move into developing.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      <hr> 
+    </div> 
+    <section class="container" id="about">
+      <div class="main_text">
+        <h2>More about me</h2>
+        <p>I grew up in El Paso, Texas, moved to Dallas when I was 14. Love video games, especially sports video games (Madden and NBA 2K series). I also love sports especially NBA basketball. Go Mavs!
+        </p>
+      </div>
+    </section>
+    <section class="container" id="contact">
+      <div class="main">
+        <p>Any questions or comments</p>
+        <form action="/sendmessage" method="post" name="sendmessage" class="form-horizontal">
+          <div class="form-group">
+            <input class="form-control input-lg" type="text" name="full_name" placeholder="Full Name">
+            <input class="form-control input-lg" type="email" name="email" required="required" placeholder="Email Address">
+            <textarea class="form-control input-lg" name="desc_text" placeholder="Questions? Comments?" style="agnostic" cols="40" rows="5"></textarea>
+            <button type="submit" class="btn btn-default btn-lg"> Submit </button>
+          </div>
+        </form>
+        <ul class="contact_info">
+          <li class="address"><span style="font-size:16px" class="glyphicon glyphicon-home"></span>&nbsp;6990 Windhaven Parkway, The Colony, Texas 75056</li><br>
+          <li class="email"><span style="font-size:16px" class="glyphicon glyphicon-envelope"></span>&nbsp;ajayi1987@me.com</li> 
+          <li class="phone_number"><span style="font-size:16px"class="glyphicon glyphicon-earphone"></span>&nbsp; 214-518-5603</li>
+        </ul>
+      </div>
+    </section>
+    <br>
+    <br>
+    <div class="container" id="work">
+      <div class="project_row" id="row1">
+        <h1> Projects. (Mostly Logos I have designed in the past)</h1>
+        <div class="col-xs-6 col-md-4"><img src="./img/spinta.jpg" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/emilynelson.gif" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/feelsgreat.jpg" class="img-responsive"></div>
+      </div>
+      <div class="project_row2" id="row2">
+        <div class="col-xs-6 col-md-4"><img src="./img/cutz2.jpg" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/instant.jpg" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/pablo.jpg" class="img-responsive"></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <section class="container" id="faq">
+     <h1>Frequently Asked Questions</h1>
+     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="glyphicon glyphicon-plus"></span>
+              Why did you decide to become a web developer?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            I've always had an interest for web developing, but didn't know where to start. CareerFoundry has helped me reach some of my goals. 
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-plus"></span>
+                What is your design process?
+              </a>
+            </h4>
+          </div>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+           1)Plan
+           2)Design
+           3)Develop
+           4)Launch
+           5)Post-Launch
+         </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-plus"></span>
+              Who are your clients?
+            </a>
+          </h4>
+        </div>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          My first client is: BrazilianMistTan
+        </div>
+      </div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pwrwf_8H25Y" frameborder="0" allowfullscreen></iframe>
+    <!--Modal Example-->
+    <div class="row1">
+     <h1 class="learn-more">Learn More</h1>
+     <div class="modal-button">
+       <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume/CV</button>
+     </div>
+   </div>
+   <!-- Small Modal -->
+   <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4 class="modal-title" id="myModalLabel">My Resume</h4>
+       </div>
+       <div class="modal-body">
+        <iframe id="modalframe" src="Ajayi-Agbebaku.pdf"></iframe>
+      </div> 
+    </div> 
+  </div> 
+</div> 
+</section>
+<!--JQuery Media Script-->
+<script src="js/jquery.media.js" type="text/javascipt"></script>
+<!-- Can place script tags with JavaScript files here -->
+<script type="text/javascript">
+var $root = $('html, body');
+$('.navbar-nav a').click(function() {
+  var href = $.attr(this, 'href');
+  $root.animate({
+    scrollTop: $(href).offset().top
+  }, 500, function () {
+    window.location.hash = href;
+  });
+  return false;
+});
+</script>
+<!--Twitter Script-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<footer>
+  <div> &copy; Ajayi Agbebaku Jr, 2015</div>
+  <a href="https://twitter.com/ajayi1987" class="twitter-follow-button" data-show-count="false">Follow @ajayi1987</a>
+  <div class="fb-like" data-href="https://www.facebook.com/ajayi.agbebaku" data-width="450" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+</footer>
+</body>
+</html>
