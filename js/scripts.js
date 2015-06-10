@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	alert("Document is ready!");
+	alert("Javascript Test!");
 })
