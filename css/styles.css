@@ -76,6 +76,10 @@ body{
 	height:auto;
 }
 
+.input-lg {
+	margin-bottom: 10px;
+}
+
 .learn-more {
 	text-align: left;
 	float:left;
