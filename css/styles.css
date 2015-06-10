@@ -10,6 +10,44 @@ body{
 	position: relative;
 }
 
+.btn-primary {
+	color: #fff;
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.col-md-4 {
+	padding-top: 20px;
+}
+
+.contact_info {
+	text-align: center;
+}
+
+.contact_info li{
+	display: inline-block;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	color:white;
+}
+
+.container {
+	margin-top: -25px;
+}
+
+.Facebook {
+	padding-right: 50px;
+}
+
+.form-group {
+	width: 100%;
+	color:black;
+}
+
+.glyphiconglyphicon-earphone li:hover {
+	transition:color 600ms;
+}
+
 .header h1 {
 	color: white;
 	font-family: 'Shadows Into Light', cursive;
@@ -32,56 +70,15 @@ body{
 	text-align: center;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #E0E9F5;  /*Sets the text hover color on navbar*/
-}
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
- a:hover, .navbar-default .navbar-nav > .active > a:focus {
-color:#E0E9F5 ; /*BACKGROUND color for active*/
-background-color: #171708;
-}
-
-.row1 {
-	color:white;
-	font-family: 'Shadows Into Light' cursive
-}
-.row1 p {
-  font-family: 'Shadows Into Light' cursive;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.row1 h2 {
-	font-size: 50px;
-	font-weight: bold;
-}
-
-.container {
-	margin-top: -25px;
-}
-
 .img-responsive {
 	display:block;
 	max-width:100%;
 	height:auto;
-
 }
 
-.project_row {
-	font-family: 'Shadows Into Light' cursive;
-	color:white;
-}
-
-.col-md-4 {
-	padding-top: 20px;
-}
-.navbar li {
-	font-family: 'Shadows Into Light' cursive;
-}
-
-.navbar a {
-	color: green;
+.learn-more {
+	text-align: left;
+	float:left;
 }
 
 .main p {
@@ -89,49 +86,6 @@ background-color: #171708;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 2em;
 	color:white;
-}
-
-.contact_info {
-	text-align: center;
-}
-
-.contact_info li{
-	display: inline-block;
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 2em;
-	color:white;
-}
-
-.Facebook {
-	padding-right: 50px;
-}
-
-.glyphiconglyphicon-earphone li:hover {
-	transition:color 600ms;
-}
-
-.panel-title {
-	font-family:'Yanone Kaffeesatz', sans-serif;
-	font-weight:bold;	
-	font-size: 20px;
-}
-
-.panel-title {
-	font-family: 'Shadows Into Light', cursive;
-}
-
-.panel-body {
-	color:black;
-}
-
-.form-group {
-	width: 100%;
-	color:black;
-}
-
-.learn-more {
-	text-align: left;
-	float:left;
 }
 
 .modal-button {
@@ -153,12 +107,58 @@ background-color: #171708;
 	width: 100%;
 	height:100%;
 }
-.btn-primary {
-	color: #fff;
-    background-color: #222222;
-    border-color: #222222;
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #E0E9F5;  /*Sets the text hover color on navbar*/
 }
 
+.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color:#E0E9F5 ; /*BACKGROUND color for active*/
+background-color: #171708;
+}
+.navbar li {
+	font-family: 'Shadows Into Light' cursive;
+}
+
+.navbar a {
+	color: green;
+}
+
+.panel-title {
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	font-weight:bold;	
+	font-size: 20px;
+}
+
+.panel-title {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.panel-body {
+	color:black;
+}
+
+.project_row {
+	font-family: 'Shadows Into Light' cursive;
+	color:white;
+}
+
+.row1 {
+	color:white;
+	font-family: 'Shadows Into Light' cursive
+}
+
+.row1 p {
+  font-family: 'Shadows Into Light' cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.row1 h2 {
+	font-size: 50px;
+	font-weight: bold;
+}
 
 @media (max-width: 480px) {
 	body {
