@@ -22,6 +22,7 @@
   });
   </script>
 
+
   <!-- jQuery is required for Bootstrap to work -->
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
@@ -39,7 +40,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
       <![endif]-->
 
-      <script src="js/scripts.js"></script>
+
     </head>
     <body data-spy="scroll" data-target=".navbar">
       <section class="container" id="home">
@@ -99,13 +100,15 @@
     <section class="container" id="contact">
       <div class="main">
         <p>Any questions or comments</p>
-        <form action="/sendmessage" method="post" name="sendmessage" class="form-horizontal">
-          <div class="form-group">
+        <form>
+          <form action="/sendmessage" method="post" name="sendmessage" class="form-horizontal">
             <input class="form-control input-lg" type="text" name="full_name" placeholder="Full Name">
             <input class="form-control input-lg" type="email" name="email" required="required" placeholder="Email Address">
-            <textarea class="form-control input-lg" name="desc_text" placeholder="Questions? Comments?" style="agnostic" cols="40" rows="5"></textarea>
-            <button type="submit" class="btn btn-default btn-lg"> Submit </button>
+            <textarea class="form-control input-lg" name="desc_text" placeholder="Questions? Comments?" id="textarea" style="agnostic" cols="40" rows="5"></textarea>
+            <button type="submit" class="btn btn-default btn-lg" id="submit"> Submit </button>
           </div>
+          <p id="visible-comment">
+          </p>
         </form>
         <ul class="contact_info">
           <li class="address"><span style="font-size:16px" class="glyphicon glyphicon-home"></span>&nbsp;6990 Windhaven Parkway, The Colony, Texas 75056</li><br>
@@ -201,6 +204,7 @@
 </section>
 <!--JQuery Media Script-->
 <script src="js/jquery.media.js" type="text/javascipt"></script>
+<script src="js/scripts.js"></script>
 <!-- Can place script tags with JavaScript files here -->
 <script type="text/javascript">
 var $root = $('html, body');
