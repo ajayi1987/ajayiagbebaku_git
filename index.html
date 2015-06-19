@@ -100,105 +100,107 @@
     <section class="container" id="contact">
       <div class="main">
         <p>Any questions or comments</p>
-        <form action="/sendmessage" method="post" name="sendmessage" class="form-horizontal">
-          <input class="form-control input-lg" type="text" name="full_name" placeholder="Full Name">
-          <input class="form-control input-lg" type="email" name="email" required="required" placeholder="Email Address">
-          <textarea class="form-control input-lg" name="desc_text" placeholder="Questions? Comments?" id="textarea" style="agnostic" cols="40" rows="5"></textarea>
-          <button type="submit" class="btn btn-default btn-lg" id="submit"> Submit </button>
-        </div>
-        <p id="visible-comment">
-        </p>
-      </form>
-      <ul class="contact_info">
-        <li class="address"><span style="font-size:16px" class="glyphicon glyphicon-home"></span>&nbsp;6990 Windhaven Parkway, The Colony, Texas 75056</li><br>
-        <li class="email"><span style="font-size:16px" class="glyphicon glyphicon-envelope"></span>&nbsp;ajayi1987@me.com</li> 
-        <li class="phone_number"><span style="font-size:16px"class="glyphicon glyphicon-earphone"></span>&nbsp; 214-518-5603</li>
-      </ul>
-    </div>
-  </section>
-  <div class="container" id="work">
-    <div class="project_row" id="row1">
-      <h1> Projects. (Mostly Logos I have designed in the past)</h1>
-      <div class="col-xs-6 col-md-4"><img src="./img/spinta.jpg" class="img-responsive"></div>
-      <div class="col-xs-6 col-md-4"><img src="./img/emilynelson.gif" class="img-responsive"></div>
-      <div class="col-xs-6 col-md-4"><img src="./img/feelsgreat.jpg" class="img-responsive"></div>
-    </div>
-    <div class="project_row2" id="row2">
-      <div class="col-xs-6 col-md-4"><img src="./img/cutz2.jpg" class="img-responsive"></div>
-      <div class="col-xs-6 col-md-4"><img src="./img/instant.jpg" class="img-responsive"></div>
-      <div class="col-xs-6 col-md-4"><img src="./img/pablo.jpg" class="img-responsive"></div>
-    </div>
-  </div>
-  <section class="container" id="faq">
-   <h1>Frequently Asked Questions</h1>
-   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-     <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingOne">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="glyphicon glyphicon-plus"></span>
-            Why did you decide to become a web developer?
-          </a>
-        </h4>
+          <form action="/sendmessage" method="post" name="sendmessage" class="form-horizontal">
+            <input class="form-control input-lg" type="text" name="full_name" placeholder="Full Name">
+            <input class="form-control input-lg" type="email" name="email" required="required" placeholder="Email Address">
+            <textarea class="form-control input-lg" name="desc_text" placeholder="Questions? Comments?" id="textarea" style="agnostic" cols="40" rows="5"></textarea>
+            <p id="char-count">
+            </p>
+            <button type="submit" class="btn btn-default btn-lg" id="submit"> Submit </button>
+          </div>
+          <p id="visible-comment">
+          </p>
+        </form>
+        <ul class="contact_info">
+          <li class="address"><span style="font-size:16px" class="glyphicon glyphicon-home"></span>&nbsp;6990 Windhaven Parkway, The Colony, Texas 75056</li><br>
+          <li class="email"><span style="font-size:16px" class="glyphicon glyphicon-envelope"></span>&nbsp;ajayi1987@me.com</li> 
+          <li class="phone_number"><span style="font-size:16px"class="glyphicon glyphicon-earphone"></span>&nbsp; 214-518-5603</li>
+        </ul>
       </div>
-      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body">
-          I've always had an interest for web developing, but didn't know where to start. CareerFoundry has helped me reach some of my goals. 
-        </div>
+    </section>
+    <div class="container" id="work">
+      <div class="project_row" id="row1">
+        <h1> Projects. (Mostly Logos I have designed in the past)</h1>
+        <div class="col-xs-6 col-md-4"><img src="./img/spinta.jpg" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/emilynelson.gif" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/feelsgreat.jpg" class="img-responsive"></div>
       </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingTwo">
+      <div class="project_row2" id="row2">
+        <div class="col-xs-6 col-md-4"><img src="./img/cutz2.jpg" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/instant.jpg" class="img-responsive"></div>
+        <div class="col-xs-6 col-md-4"><img src="./img/pablo.jpg" class="img-responsive"></div>
+      </div>
+    </div>
+    <section class="container" id="faq">
+     <h1>Frequently Asked Questions</h1>
+     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
           <h4 class="panel-title">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-plus"></span>
-              What is your design process?
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="glyphicon glyphicon-plus"></span>
+              Why did you decide to become a web developer?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            I've always had an interest for web developing, but didn't know where to start. CareerFoundry has helped me reach some of my goals. 
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-plus"></span>
+                What is your design process?
+              </a>
+            </h4>
+          </div>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+           1)Plan
+           2)Design
+           3)Develop
+           4)Launch
+           5)Post-Launch
+         </div>
+       </div>
+       <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-plus"></span>
+              Who are your clients?
             </a>
           </h4>
         </div>
       </div>
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
         <div class="panel-body">
-         1)Plan
-         2)Design
-         3)Develop
-         4)Launch
-         5)Post-Launch
-       </div>
+          My first client is: BrazilianMistTan
+        </div>
+      </div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pwrwf_8H25Y" frameborder="0" allowfullscreen></iframe>
+    <!--Modal Example-->
+    <div class="row1">
+     <h1 class="learn-more">Learn More</h1>
+     <div class="modal-button">
+       <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume/CV</button>
      </div>
-     <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingThree">
-        <h4 class="panel-title">
-          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-plus"></span>
-            Who are your clients?
-          </a>
-        </h4>
-      </div>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-        My first client is: BrazilianMistTan
-      </div>
-    </div>
-  </div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Pwrwf_8H25Y" frameborder="0" allowfullscreen></iframe>
-  <!--Modal Example-->
-  <div class="row1">
-   <h1 class="learn-more">Learn More</h1>
-   <div class="modal-button">
-     <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume/CV</button>
    </div>
- </div>
- <!-- Small Modal -->
- <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-  <div class="modal-dialog modal-lg">
-   <div class="modal-content">
-     <div class="modal-header">
-       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-       <h4 class="modal-title" id="myModalLabel">My Resume</h4>
-     </div>
-     <div class="modal-body">
-      <iframe id="modalframe" src="Ajayi-Agbebaku.pdf"></iframe>
+   <!-- Small Modal -->
+   <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4 class="modal-title" id="myModalLabel">My Resume</h4>
+       </div>
+       <div class="modal-body">
+        <iframe id="modalframe" src="Ajayi-Agbebaku.pdf"></iframe>
+      </div> 
     </div> 
   </div> 
-</div> 
 </div> 
 </section>
 <!--JQuery Media Script-->
