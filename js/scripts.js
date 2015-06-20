@@ -3,9 +3,9 @@ $(document).ready(function(){
 });
 
 $("#submit").on("click", function() {
-   console.log("clicked");
-   return false;
-   
+	console.log("clicked");
+	return false;
+
 });
 
 $("#submit").on("click", function() {
@@ -16,18 +16,13 @@ $("#submit").on("click", function() {
 
 $("#textarea").on("keyup", function() {
 	console.log("keyup just happened!!");
-	var nameName = 3;
-	var name ="string";
+	var change_color_length = 50;
 	var charCount = $("#textarea").val().length; //length of the content of the textarea to a variable
 	console.log(charCount);
 	$("#char-count").html(charCount);
-	if(charCount > 50) {
+	if(charCount > change_color_length) {
 		$("#char-count").css("color", "red");
 	} else {
 		$("#char-count").css("color", "yellow");
-
 	};
 });
-
-
-
