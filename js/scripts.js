@@ -26,3 +26,10 @@ $("#textarea").on("keyup", function() {
 		$("#char-count").css("color", "yellow");
 	};
 });
+
+var rows = $(".my-row");
+for(var i=0; i<rows.length; ++i) {
+	if (i%2===0) {
+		$(rows[i]).css("background-color", "black");
+	}
+};
