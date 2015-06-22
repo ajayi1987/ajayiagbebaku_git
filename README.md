@@ -1,2 +1,2 @@
 # ajayiagbebaku_git
-My portfolio project I'm creating with careerfoundry
+My portfolio project I'm creating with CareerFoundry
