@@ -70,12 +70,42 @@ body{
 	text-align: center;
 }
 
+.image {
+	box-sizing:border-box;
+	border:5px solid white;
+	width:200px;
+	height:200px;
+	margin:20px 0px 20px 70px;
+	display:inline-block;
+	position:relative;
+
+}
+
 .img-responsive {
 	display:block;
 	max-width:100%;
 	height:auto;
 }
 
+.info {
+	display:inline-block;
+	color:darkred;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	position: absolute;
+	top:15%
+	left:22%;
+	font-family: 'Shadows Into Light' cursive;
+}
+
+.proj-title {
+	font-weight: 100;
+	color:darkred;
+	font-family: 'Shadows Into Light' cursive;
+}
 .input-lg {
 	margin-bottom: 10px;
 }

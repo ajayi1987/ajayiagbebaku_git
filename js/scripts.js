@@ -33,3 +33,21 @@ for(var i=0; i<rows.length; ++i) {
 		$(rows[i]).css("background-color", "black");
 	}
 };
+
+var myWork = [ { title: "This", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/NEFL6small.jpg" },
+{ title: "Was", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/schizosmall.jpg"}, 
+{ title: "Very", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/assemblesmall.jpg"},
+{ title: "Hard!", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/iglamoursmall.jpg"}
+];
+
+for(var i=0; i<myWork.length; ++i){
+    $("#" + i).css("background-image", "url("+ myWork[i].pic + ")");
+
+};
+
+$(".image").mouseenter( function() {
+	console.log(myWork[this.id].title);
+	$(this).html("<p class='info'><span class='proj-title'>Title:</span> " + myWork[this.id].title + " </p>");
+}) .mouseleave( function() {
+	$("p.info").html("");
+});
