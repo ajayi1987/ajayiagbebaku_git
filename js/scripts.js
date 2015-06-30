@@ -34,10 +34,10 @@ for(var i=0; i<rows.length; ++i) {
 	}
 };
 
-var myWork = [ { title: "This", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/NEFL6small.jpg" },
-{ title: "Was", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/schizosmall.jpg"}, 
-{ title: "Very", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/assemblesmall.jpg"},
-{ title: "Hard!", pic: "C:/Users/Ajayi/Documents/ajayiagbebaku_git/img/iglamoursmall.jpg"}
+var myWork = [ { title: "This", pic: "../NEFL6small.jpg" },
+{ title: "Was", pic: "../schizosmall.jpg"}, 
+{ title: "Very", pic: "../assemblesmall.jpg"},
+{ title: "Hard!", pic: "../iglamoursmall.jpg"}
 ];
 
 for(var i=0; i<myWork.length; ++i){
