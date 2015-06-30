@@ -2,6 +2,7 @@ $(document).ready(function(){
 	alert("JavaScript Test!");
 });
 
+
 $("#submit").on("click", function() {
 	console.log("clicked");
 	return false;
@@ -34,10 +35,10 @@ for(var i=0; i<rows.length; ++i) {
 	}
 };
 
-var myWork = [ { title: "This", pic: "../NEFL6small.jpg" },
-{ title: "Was", pic: "../schizosmall.jpg"}, 
-{ title: "Very", pic: "../assemblesmall.jpg"},
-{ title: "Hard!", pic: "../iglamoursmall.jpg"}
+var myWork = [ { title: "This", pic: "../img/NEFL6small.jpg" },
+{ title: "Was", pic: "../img/schizosmall.jpg"}, 
+{ title: "Very", pic: "../img/assemblesmall.jpg"},
+{ title: "Hard!", pic: "../img/iglamoursmall.jpg"}
 ];
 
 for(var i=0; i<myWork.length; ++i){
@@ -51,3 +52,15 @@ $(".image").mouseenter( function() {
 }) .mouseleave( function() {
 	$("p.info").html("");
 });
+
+function initialize() {
+	 var mapOptions = {
+    zoom: 10,
+    center: new google.maps.LatLng(33.0487641,-96.8524734,17)
+  };
+   var map = new google.maps.Map(document.getElementById('map'),
+      mapOptions);
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+

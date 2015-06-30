@@ -9,6 +9,11 @@ body{
 	color:white;
 	position: relative;
 }
+html, body, #map {
+	height: 100%
+	margin:0px;
+	padding: 0px;		
+}
 
 .btn-primary {
 	color: #fff;
@@ -122,6 +127,9 @@ body{
 	color:white;
 }
 
+#map {
+	border: solid;
+}
 .modal-button {
 	float:right;
 	padding:15px;
@@ -214,6 +222,14 @@ td {
 	padding:50px;
 }
 
+#work {
+	padding-top: 20px;
+}
+
+#work h1 {
+	margin-left: 200px;
+}
+
 @media (max-width: 480px) {
 	body {
 		background-image: none;
@@ -227,4 +243,23 @@ td {
 		width:350px;
 		height: 100px;
 	}
-}
+	#work h1 {
+		font-size: 14px;
+		margin: 0;
+		padding-top: 10px;
+	}
+
+	.header h1 {
+		font-size: 18px;
+	}
+
+	.main p{
+		font-size: 14px;
+		padding-top: 20px;
+	}
+
+	li {
+		font-size:14px;
+	}
+
+
