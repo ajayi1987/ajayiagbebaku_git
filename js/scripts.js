@@ -42,7 +42,7 @@ var myWork = [ { title: "This", pic: "../img/NEFL6small.jpg" },
 ];
 
 for(var i=0; i<myWork.length; ++i){
-    $("#" + i).css("background-image", "url("+ myWork[i].pic + ")");
+	$("#" + i).css("background-image", "url("+ myWork[i].pic + ")");
 
 };
 
@@ -54,12 +54,14 @@ $(".image").mouseenter( function() {
 });
 
 function initialize() {
-	 var mapOptions = {
-    zoom: 10,
-    center: new google.maps.LatLng(33.0487641,-96.8524734,17)
-  };
-   var map = new google.maps.Map(document.getElementById('map'),
-      mapOptions);
+	var lat = 33.0487641;
+	var lng = -96.8524734;
+	var mapOptions = {
+		zoom: 10,
+		center: new google.maps.LatLng (lat,lng)
+	};
+	var map = new google.maps.Map(document.getElementById('map'),
+		mapOptions);
 
 }
 google.maps.event.addDomListener(window, 'load', initialize);
