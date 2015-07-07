@@ -26,14 +26,14 @@ $("#textarea").on("keyup", function() {
 var rows = $(".my-row");
 for(var i=0; i<rows.length; ++i) {
 	if (i%2===0) {
-		$(rows[i]).css("background-color", "black");
+		$(rows[i]).css("background-color", "#39393A");
 	}
 };
 
-var myWork = [ { title: "This", pic: "../img/NEFL6small.jpg" },
-{ title: "Was", pic: "../img/schizosmall.jpg"}, 
-{ title: "Very", pic: "../img/assemblesmall.jpg"},
-{ title: "Hard!", pic: "../img/iglamoursmall.jpg"}
+var myWork = [ { title: "More Work", pic: "../img/NEFL6small.jpg" },
+{ title: "More Work", pic: "../img/schizosmall.jpg"}, 
+{ title: "More Work", pic: "../img/assemblesmall.jpg"},
+{ title: "More Work", pic: "../img/iglamoursmall.jpg"}
 ];
 
 for(var i=0; i<myWork.length; ++i){
