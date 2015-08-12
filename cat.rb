@@ -1,4 +1,4 @@
-class Cat
+class Pet
 	attr_reader :color, :breed
 	attr_accessor :name
 	def initialize(color, breed)
@@ -18,6 +18,17 @@ class Cat
 		end
 		@hungry
 	end
+end
+class Dog < Pet
+	def speak
+		puts "Woof!"
+	end
+end
+puppy = Dog.new("black", "Boxer")
+puppy.speak
+puts puppy.breed
+
+class Cat	< Pet
 	def speak
 		puts "Meow!"
 	end
@@ -41,5 +52,3 @@ puts "Is our cat hungry now?"
 kitty.hungry?
 puts "Our cat can make noise"
 kitty.speak
-	
-
