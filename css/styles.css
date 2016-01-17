@@ -43,12 +43,10 @@ footer {
 
 }
 img {
-	text-align: center;
 	padding: 10px;
 	border-radius: 79px;
     transition: 0.2s;
 	width: 198px;
-	margin-left: 300px;
 }
 
 .img-responsive {
@@ -93,6 +91,10 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #0C0500;
 }
 
+.primary h2 {
+	color:black;
+}
+
 .primary li {
 	list-style-type: none;
 	color:black;
@@ -103,11 +105,20 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: black;
 }
 
+.profile {
+	margin-left: 300px;
+}
+
+
 .social-icons {
 	margin-left: 360px;
 }
 .social-icons i {
 	color: #282525;
+}
+
+td {
+	width:500px;
 }
 .fa-twitter:hover {
 	color: #01BAEF;
