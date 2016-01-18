@@ -23,6 +23,7 @@ html, body, #map {
 
 .container {
 	margin-top: -25px;
+	margin-right: 300px;
 }
 
 footer {
@@ -147,8 +148,8 @@ td {
 	}
 
 	.container {
-		width: 200px !important;
-		margin-right: 400px;
+		margin-right: 450px;
+		margin-top: -25px
 	}
 
 
