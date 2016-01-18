@@ -132,7 +132,7 @@ td {
 	color:#04416B;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 	body {
 		background: url(../img/ps_neutral.png) no-repeat center fixed;
 		-webkit-background-size:cover;
@@ -141,23 +141,39 @@ td {
 		background-size:cover;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-size: 18px;
-		color:white;
+		color:black;
 		position: relative;
+		width: 200px;
 	}
 
-
-	img {
-		margin-left: 73px;
-		margin-top: 70px;
+	.container {
+		width: 200px !important;
+		margin-right: 400px;
 	}
+
 
 	.primary {
-		width: 400px;
-		height: 200px;
-		margin-left: 50px;
-		margin-top: 40px;
+		width: 250px;
+		height: 400px;
+		float: left;
 	}
+.profile img {
+	margin-left: -230px;
+}
 
+#projects {
+	width:100px !important;
+}
+
+#projects img {
+	width: 100px !important;
+}
+
+#projects table, td, tr {
+	width: 10px !important;
+}
 	.social-icons {
 		margin-left: 133px;
 	}
+
+}
