@@ -83,7 +83,6 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 .primary {
 	width: 800px;
 	height: 400px;
-	margin-left: 300px;
 	margin-top: 80px;
 }
 .primary h1{
@@ -157,6 +156,7 @@ td {
 		width: 250px;
 		height: 400px;
 		float: left;
+		margin-left: 300px;
 	}
 .profile img {
 	margin-left: -230px;
