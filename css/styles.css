@@ -22,8 +22,7 @@ html, body, #map {
 }
 
 .container {
-	margin-top: -25px;
-	margin-right: 300px;
+	text-align: center;
 }
 
 footer {
@@ -65,6 +64,7 @@ img {
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #E0E9F5;  /*Sets the text hover color on navbar*/
+	transition: all .3s ease-in-out;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
@@ -105,13 +105,18 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: black;
 }
 
+#projects img {
+	width: 300px;
+	height:200px;
+}
+
 .profile {
-	margin-left: 300px;
+
 }
 
 
 .social-icons {
-	margin-left: 360px;
+
 }
 .social-icons i {
 	color: #282525;
@@ -122,14 +127,17 @@ td {
 }
 .fa-twitter:hover {
 	color: #01BAEF;
+	transition: all .3s ease-in-out;
 }
 
 .fa-github:hover {
 	color:#0B4F6C;
+	transition: all .3s ease-in-out;
 }
 
 .fa-linkedin:hover {
 	color:#04416B;
+	transition: all .3s ease-in-out;
 }
 
 @media (max-width: 500px) {
@@ -147,34 +155,32 @@ td {
 	}
 
 	.container {
-		margin-right: 450px;
-		margin-top: -25px
-	}
+	text-align: center;
+}
 
 
 	.primary {
-		width: 250px;
+		width: 350px;
 		height: 400px;
-		float: left;
-		margin-left: 300px;
+
 	}
 .profile img {
-	margin-left: -230px;
+
 }
 
 #projects {
-	width:100px !important;
+
+
 }
 
 #projects img {
 	width: 100px !important;
+	height:50px;
 }
 
 #projects table, td, tr {
 	width: 10px !important;
 }
-	.social-icons {
-		margin-left: 133px;
-	}
+
 
 }
