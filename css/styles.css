@@ -20,6 +20,26 @@ html, body, #map {
 	background-color: #222222;
 	border-color: #222222;
 }
+#clutch img{
+	width:675px;
+	height:300px
+	padding:0;
+	border-radius: 0px
+}
+
+#cutz img {
+	width: 792px;
+	height:379px;
+	padding: 0;
+	border-radius:0px;
+}
+
+#cutzlogo img {
+	width:800px;
+	height:600px;
+	padding:0;
+	border-radius: 0px;
+}
 
 .container {
 	text-align: center;
@@ -61,6 +81,18 @@ img {
 	font-size: 2em;
 	color:white;
 }
+.modal-body h3 {
+	font-size: 23px;
+	color:#101010;
+	font-weight: bolder;
+}
+
+#brazil img {
+	width:792px;
+	height: 388px;
+	padding:0;
+	border-radius:0px;
+}
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #E0E9F5;  /*Sets the text hover color on navbar*/
@@ -78,6 +110,20 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 
 .navbar a {
 	color: green;
+}
+
+#nefl img {
+	width:600px;
+	height:600px;
+	padding: 0;
+	border-radius: 0px;
+}
+
+#pablologo img {
+	width:600px;
+	height:450px;
+	padding: 0;
+	border-radius: 0px;
 }
 
 .primary {
