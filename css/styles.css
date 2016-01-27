@@ -27,6 +27,10 @@ html, body, #map {
 	border-radius: 0px
 }
 
+.col-md-1 {
+	width: auto;
+}
+
 #cutz img {
 	width: 792px;
 	height:379px;
@@ -41,9 +45,6 @@ html, body, #map {
 	border-radius: 0px;
 }
 
-.container {
-	text-align: center;
-}
 
 footer {
 	font-size: 15px;
@@ -127,9 +128,9 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 }
 
 .primary {
-	width: 800px;
 	height: 400px;
 	margin-top: 80px;
+	text-align: center;
 }
 .primary h1{
 	font-size: 45px;
@@ -159,7 +160,9 @@ a:hover, .navbar-default .navbar-nav > .active > a:focus {
 .profile {
 
 }
-
+ .row {
+	 margin-left: 55px;
+ }
 
 .social-icons {
 
@@ -186,7 +189,7 @@ td {
 	transition: all .3s ease-in-out;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
 	body {
 		background: url(../img/ps_neutral.png) no-repeat center fixed;
 		-webkit-background-size:cover;
@@ -199,11 +202,47 @@ td {
 		position: relative;
 		width: 200px;
 	}
+	#brazil img {
+		width:300px;
+		height: 200px;
+		padding:0;
+		border-radius:0px;
+	}
 
-	.container {
-	text-align: center;
+#clutch img{
+	width:300px;
+	height:200px
+	padding:0;
+	border-radius: 0px
 }
 
+#cutz img {
+	width: 300px;
+	height:200px;
+	padding: 0;
+	border-radius:0px;
+}
+
+#cutzlogo img {
+	width:300px;
+	height:200px;
+	padding:0;
+	border-radius: 0px;
+}
+
+#nefl img {
+	width:300px;
+	height:200px;
+	padding: 0;
+	border-radius: 0px;
+}
+
+#pablologo img {
+	width:300px;
+	height:200px;
+	padding: 0;
+	border-radius: 0px;
+}
 
 	.primary {
 		width: 350px;
@@ -219,14 +258,12 @@ td {
 
 }
 
-#projects img {
-	width: 100px !important;
-	height:50px;
+.row {
+	margin-left: 20px;
 }
 
-#projects table, td, tr {
-	width: 10px !important;
-}
+
+
 
 
 }

@@ -11,6 +11,7 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="js/bootstrap.js" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 
   <script>
@@ -44,7 +45,7 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar">
-  <section class="container" id="home">
+  <div class="container" id="home">
     <nav class="navbar navbar-inverse navbar-fixed-top navbar-fnt" role="navigation">
       <nav class="container-fluid">
         <nav class="navbar-header">
@@ -68,6 +69,8 @@
         </nav>
       </nav>
     </nav>
+  </div>
+  <div class="container">
     <div class="primary">
       <div class="profile">
         <img src="img/ajayi.jpg">
@@ -82,21 +85,19 @@
     <div id="projects">
     <h1>Projects</h1>
     <h2>Websites</h2>
-    <table>
-      <tr>
-      <td><a href="#" data-toggle="modal" data-target="#myModal1"><img src="img/braziliantanthumb.png"><br>Brazilian Mist Tan(Website)</a></td>
-      <td><a href="#" data-toggle="modal" data-target="#myModal2"><img src="img/clutchthumb.png"><br>ClutchPicks(Website)</a></td>
-      <td><a href="#" data-toggle="modal" data-target="#myModal3"><img src="img/cutzthumb.png"><br>Cutz & Styles(Demo Website)</a></td>
-    </tr>
-  </table>
-  <h2>Logos</h2>
-    <table>
-      <tr>
-    <td><a href="#" data-toggle="modal" data-target="#myModal4"><img src="img/cutz2.jpg"><br>Cutz & Styles Logo</a></td>
-    <td><a href="#" data-toggle="modal" data-target="#myModal5"><img src="img/pablo.jpg"><br>Pablo Logo</a></td>
-    <td><a href="#" data-toggle="modal" data-target="#myModal6"><img src="img/NEFL6.jpg"><br>NEFL Logo</a></td>
-  </table>
+    <div class="row">
+      <div class="col-xs-6 col-md-1"><a href="#" data-toggle="modal" data-target="#myModal1"><img src="img/braziliantanthumb.png"><br>Brazilian Mist Tan(Website)</a></td></div>
+      <div class="col-xs-6 col-md-1"><a href="#" data-toggle="modal" data-target="#myModal2"><img src="img/clutchthumb.png"><br>ClutchPicks(Website)</a></td></div>
+      <div class="col-xs-6 col-md-1"><a href="#" data-toggle="modal" data-target="#myModal3"><img src="img/cutzthumb.png"><br>Cutz & Styles(Demo Website)</a></td>
+      </div>
     </div>
+  <h2>Logos</h2>
+  <div class="row">
+    <div class="col-xs-6 col-md-1"><a href="#" data-toggle="modal" data-target="#myModal4"><img src="img/cutz2.jpg"><br>Cutz & Styles Logo</a></td></div>
+    <div class="col-xs-6 col-md-1"><a href="#" data-toggle="modal" data-target="#myModal5"><img src="img/pablo.jpg"><br>Pablo Logo</a></div>
+    <div class="col-xs-6 col-md-1"><a href="#" data-toggle="modal" data-target="#myModal6"><img src="img/NEFL6.jpg"><br>NEFL Logo</a></div>
+  </div>
+</div>
     <div id="skills">
     <h1> Skills</h1>
     <p> Currently familiar and/or worked with</p>
@@ -123,6 +124,7 @@
     Designed and Developed by Ajayi Agbebaku Jr.
     </footer>
   </div>
+
 
 <!--Modal Section-->
 <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
@@ -215,7 +217,7 @@
             <h4 class="modal-title" id="myModal6">NEFL</h4>
             </div>
             <div class="modal-body" id="nefl">
-                <img src="img/nefl6.jpg">
+                <img src="img/NEFL6.jpg">
                 <h3>Client: NEFL Logo</h3>
             </div>
             <div class="modal-footer">
@@ -243,7 +245,7 @@
   });
   </script>
 
-</section>
+</div>
 </body>
 
 </html>
