@@ -65,7 +65,7 @@ footer {
 }
 img {
 	padding: 10px;
-	border-radius: 79px;
+	border-radius: 50%;
     transition: 0.2s;
 	width: 198px;
 }
@@ -86,6 +86,10 @@ img {
 	font-size: 23px;
 	color:#101010;
 	font-weight: bolder;
+}
+.modal-body img {
+	width:700px;
+	height: 600px;
 }
 
 #brazil img {
