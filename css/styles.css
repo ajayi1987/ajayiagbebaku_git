@@ -1,273 +1,259 @@
-body{
-	background: url(../img/ps_neutral.png) no-repeat center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 18px;
-	color:white;
-	position: relative;
+body {
+  background: url(../img/ps_neutral.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  color: white;
+  position: relative;
 }
+
 html, body, #map {
-	height: 100%
-	margin:0px;
-	padding: 0px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .btn-primary {
-	color: #fff;
-	background-color: #222222;
-	border-color: #222222;
+  color: #fff;
+  background-color: #222222;
+  border-color: #222222;
 }
-#clutch img{
-	width:675px;
-	height:300px
-	padding:0;
-	border-radius: 0px
+
+#clutch img {
+  width: 675px;
+  height: 300px;
+  padding: 0;
+  border-radius: 0px
 }
 
 .col-md-1 {
-	width: auto;
+  width: auto;
 }
 
 #cutz img {
-	width: 792px;
-	height:379px;
-	padding: 0;
-	border-radius:0px;
+  width: 792px;
+  height: 379px;
+  padding: 0;
+  border-radius: 0px;
 }
 
 #cutzlogo img {
-	width:800px;
-	height:600px;
-	padding:0;
-	border-radius: 0px;
+  width: 800px;
+  height: 600px;
+  padding: 0;
+  border-radius: 0px;
 }
 
-
 footer {
-	font-size: 15px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-	color:black;
+  font-size: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  color: black;
 }
 
 .image {
-	box-sizing:border-box;
-	border:5px solid white;
-	width:200px;
-	height:200px;
-	margin:20px 0px 20px 70px;
-	display:inline-block;
-	position:relative;
-
+  box-sizing: border-box;
+  border: 5px solid white;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0px 20px 70px;
+  display: inline-block;
+  position: relative;
 }
+
 img {
-	padding: 10px;
-	border-radius: 50%;
-    transition: 0.2s;
-	width: 198px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.2s;
+  width: 198px;
 }
 
 .img-responsive {
-	display:block;
-	max-width:100%;
-	height:auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .main p {
-	text-align: center;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 2em;
-	color:white;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  color: white;
 }
+
 .modal-body h3 {
-	font-size: 23px;
-	color:#101010;
-	font-weight: bolder;
+  font-size: 23px;
+  color: #101010;
+  font-weight: bolder;
 }
+
 .modal-body img {
-	width:700px;
-	height: 600px;
+  width: 700px;
+  height: 600px;
 }
 
 #brazil img {
-	width:792px;
-	height: 388px;
-	padding:0;
-	border-radius:0px;
+  width: 792px;
+  height: 388px;
+  padding: 0;
+  border-radius: 0px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #E0E9F5;  /*Sets the text hover color on navbar*/
-	transition: all .3s ease-in-out;
+  color: #E0E9F5;
+  /*Sets the text hover color on navbar*/
+  transition: all .3s ease-in-out;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
-a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color:#E0E9F5 ; /*BACKGROUND color for active*/
-	background-color: #171708;
+.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #E0E9F5;
+  /*BACKGROUND color for active*/
+  background-color: #171708;
 }
+
 .navbar li {
-	font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .navbar a {
-	color: green;
+  color: green;
 }
 
 #nefl img {
-	width:600px;
-	height:600px;
-	padding: 0;
-	border-radius: 0px;
+  width: 600px;
+  height: 600px;
+  padding: 0;
+  border-radius: 0px;
 }
 
 #pablologo img {
-	width:600px;
-	height:450px;
-	padding: 0;
-	border-radius: 0px;
+  width: 600px;
+  height: 450px;
+  padding: 0;
+  border-radius: 0px;
 }
 
 .primary {
-	height: 400px;
-	margin-top: 80px;
-	text-align: center;
+  height: 400px;
+  margin-top: 80px;
+  text-align: center;
 }
-.primary h1{
-	font-size: 45px;
-	font-weight: bold;
-	color: #0C0500;
+
+.primary h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #0C0500;
 }
 
 .primary h2 {
-	color:black;
+  color: black;
 }
 
 .primary li {
-	list-style-type: none;
-	color:black;
-	margin-left: -40px;
+  list-style-type: none;
+  color: black;
+  margin-left: -40px;
 }
 
-.primary p{
-	color: black;
+.primary p {
+  color: black;
 }
 
 #projects img {
-	width: 300px;
-	height:200px;
+  width: 300px;
+  height: 200px;
 }
 
-.profile {
+.profile {}
 
+.row {
+  margin-left: 55px;
 }
- .row {
-	 margin-left: 55px;
- }
 
-.social-icons {
+.social-icons {}
 
-}
 .social-icons i {
-	color: #282525;
+  color: #282525;
 }
 
 td {
-	width:500px;
+  width: 500px;
 }
+
 .fa-twitter:hover {
-	color: #01BAEF;
-	transition: all .3s ease-in-out;
+  color: #01BAEF;
+  transition: all .3s ease-in-out;
 }
 
 .fa-github:hover {
-	color:#0B4F6C;
-	transition: all .3s ease-in-out;
+  color: #0B4F6C;
+  transition: all .3s ease-in-out;
 }
 
 .fa-linkedin:hover {
-	color:#04416B;
-	transition: all .3s ease-in-out;
+  color: #04416B;
+  transition: all .3s ease-in-out;
 }
 
 @media (max-width: 450px) {
-	body {
-		background: url(../img/ps_neutral.png) no-repeat center fixed;
-		-webkit-background-size:cover;
-		-moz-background-size:cover;
-		-o-background-size:cover;
-		background-size:cover;
-		font-family: 'Open Sans Condensed', sans-serif;
-		font-size: 18px;
-		color:black;
-		position: relative;
-		width: 200px;
-	}
-	#brazil img {
-		width:300px;
-		height: 200px;
-		padding:0;
-		border-radius:0px;
-	}
-
-#clutch img{
-	width:300px;
-	height:200px
-	padding:0;
-	border-radius: 0px
-}
-
-#cutz img {
-	width: 300px;
-	height:200px;
-	padding: 0;
-	border-radius:0px;
-}
-
-#cutzlogo img {
-	width:300px;
-	height:200px;
-	padding:0;
-	border-radius: 0px;
-}
-
-#nefl img {
-	width:300px;
-	height:200px;
-	padding: 0;
-	border-radius: 0px;
-}
-
-#pablologo img {
-	width:300px;
-	height:200px;
-	padding: 0;
-	border-radius: 0px;
-}
-
-	.primary {
-		width: 350px;
-		height: 400px;
-
-	}
-.profile img {
-
-}
-
-#projects {
-
-
-}
-
-.row {
-	margin-left: 20px;
-}
-
-
-
-
-
+  body {
+    background: url(../img/ps_neutral.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    width: 200px;
+  }
+  #brazil img {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    border-radius: 0px;
+  }
+  #clutch img {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    border-radius: 0px
+  }
+  #cutz img {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    border-radius: 0px;
+  }
+  #cutzlogo img {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    border-radius: 0px;
+  }
+  #nefl img {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    border-radius: 0px;
+  }
+  #pablologo img {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+    border-radius: 0px;
+  }
+  .primary {
+    width: 350px;
+    height: 400px;
+  }
+  .profile img {}
+  #projects {}
+  .row {
+    margin-left: 20px;
+  }
 }
