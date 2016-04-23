@@ -10,250 +10,99 @@ body {
   position: relative;
 }
 
-html, body, #map {
+html,
+body,
+.about {
   height: 100%;
-  margin: 0px;
-  padding: 0px;
 }
-
-.btn-primary {
-  color: #fff;
-  background-color: #222222;
-  border-color: #222222;
-}
-
-#clutch img {
-  width: 675px;
-  height: 300px;
-  padding: 0;
-  border-radius: 0px
-}
-
-.col-md-1 {
-  width: auto;
-}
-
-#cutz img {
-  width: 792px;
-  height: 379px;
-  padding: 0;
-  border-radius: 0px;
-}
-
-#cutzlogo img {
-  width: 800px;
-  height: 600px;
-  padding: 0;
-  border-radius: 0px;
-}
-
-footer {
-  font-size: 15px;
-  font-family: 'Open Sans Condensed', sans-serif;
+.about h3 {
   text-align: center;
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  font-size: 45px;
   color: black;
 }
 
-.image {
-  box-sizing: border-box;
-  border: 5px solid white;
+.about h4 {
+  text-align: center;
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+}
+
+.about img {
   width: 200px;
-  height: 200px;
-  margin: 20px 0px 20px 70px;
-  display: inline-block;
-  position: relative;
+}
+
+.jumbotron {
+  height: 100%;
+  background-color: black;
+  background: url(../img/desk.jpg) center;
+  background-size: cover;
 }
 
 img {
-  padding: 10px;
-  border-radius: 50%;
-  transition: 0.2s;
-  width: 198px;
+  width: 100%;
 }
 
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.intro {
+  margin-top: 200px;
 }
 
-.main p {
+.intro h1 {
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 2em;
+  font-family: 'Karma', serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+.intro h2 {
+  text-align: center;
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.intro h3 {
+  text-align: center;
+  font-family: 'Karma', serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -20px;
+}
+
+.navbar-inverse {
+  background: none;
+  border: none;
+  width: 1100px;
+  margin-top: 15px;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
   color: white;
+  background-color: transparent;
 }
 
-.modal-body h3 {
-  font-size: 23px;
-  color: #101010;
-  font-weight: bolder;
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
 }
 
-.modal-body img {
-  width: 700px;
-  height: 600px;
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: transparent;
 }
 
-#brazil img {
-  width: 792px;
-  height: 388px;
-  padding: 0;
-  border-radius: 0px;
-}
 
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #E0E9F5;
-  /*Sets the text hover color on navbar*/
-  transition: all .3s ease-in-out;
-}
-
-.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #E0E9F5;
-  /*BACKGROUND color for active*/
-  background-color: #171708;
-}
-
-.navbar li {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.navbar a {
-  color: green;
-}
-
-#nefl img {
-  width: 600px;
-  height: 600px;
-  padding: 0;
-  border-radius: 0px;
-}
-
-#pablologo img {
-  width: 600px;
-  height: 450px;
-  padding: 0;
-  border-radius: 0px;
-}
-
-.primary {
-  height: 400px;
-  margin-top: 80px;
+.services h3 {
   text-align: center;
-}
-
-.primary h1 {
+  font-family: 'Karma', serif;
+  font-weight: 400;
   font-size: 45px;
-  font-weight: bold;
-  color: #0C0500;
-}
-
-.primary h2 {
   color: black;
 }
 
-.primary li {
-  list-style-type: none;
-  color: black;
-  margin-left: -40px;
-}
-
-.primary p {
-  color: black;
-}
-
-#projects img {
-  width: 300px;
-  height: 200px;
-}
-
-.profile {}
-
-.row {
-  margin-left: 55px;
-}
-
-.social-icons {}
-
-.social-icons i {
-  color: #282525;
-}
-
-td {
-  width: 500px;
-}
-
-.fa-twitter:hover {
-  color: #01BAEF;
-  transition: all .3s ease-in-out;
-}
-
-.fa-github:hover {
-  color: #0B4F6C;
-  transition: all .3s ease-in-out;
-}
-
-.fa-linkedin:hover {
-  color: #04416B;
-  transition: all .3s ease-in-out;
-}
-
-@media (max-width: 450px) {
-  body {
-    background: url(../img/ps_neutral.png) no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;
-    color: black;
-    position: relative;
-    width: 200px;
-  }
-  #brazil img {
-    width: 300px;
-    height: 200px;
-    padding: 0;
-    border-radius: 0px;
-  }
-  #clutch img {
-    width: 300px;
-    height: 200px;
-    padding: 0;
-    border-radius: 0px
-  }
-  #cutz img {
-    width: 300px;
-    height: 200px;
-    padding: 0;
-    border-radius: 0px;
-  }
-  #cutzlogo img {
-    width: 300px;
-    height: 200px;
-    padding: 0;
-    border-radius: 0px;
-  }
-  #nefl img {
-    width: 300px;
-    height: 200px;
-    padding: 0;
-    border-radius: 0px;
-  }
-  #pablologo img {
-    width: 300px;
-    height: 200px;
-    padding: 0;
-    border-radius: 0px;
-  }
-  .primary {
-    width: 350px;
-    height: 400px;
-  }
-  .profile img {}
-  #projects {}
-  .row {
-    margin-left: 20px;
-  }
+.verticalLine {
+    border-left:  solid black;
 }
