@@ -16,3 +16,6 @@ html, body, #map {
   padding: 0px;
 }
 
+.jumbotron {
+  background: url(../img/desk.jpg) no-repeat center fixed;
+}
